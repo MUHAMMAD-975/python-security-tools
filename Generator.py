@@ -33,7 +33,7 @@ def generate_password():
 
         # Build the password step by step
         password = ""
-        for password in range(length):
+        for i in range(length):
             password += random.choice(characters)
 
         # Return the final password to main.py
